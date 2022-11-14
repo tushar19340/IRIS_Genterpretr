@@ -13,4 +13,4 @@ def predict(artifact_list, payload):
 
     prediction = model.predict(prediction_vector)
 
-    return float(prediction[0])
+    return prediction
